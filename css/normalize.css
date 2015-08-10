@@ -413,3 +413,10 @@ a: hover {
 	font-size: .9rem
 }
 }
+
+
+.site-footer{position: absolute;bottom: 20px;text-align: center;width: 100%;}
+.list a{display:block;text-decoration: none;}
+.list {margin: 0 !important;border-bottom:1px solid #DFDFDF;}
+.list:hover{background:#f5f5f5;}
+.plugin-name{display:inline-block;min-width:220px;}
