@@ -1,0 +1,3 @@
+function jbox(){
+	alert('jbox');
+}
