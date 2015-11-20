@@ -1,4 +1,4 @@
-Jcap.source.response("JcapJS", function() {
+Jcap.source.response("JcapWeb", function() {
 	function stylesheet(name) {
 		return "css/" + name +'/'+name + ".css";
 	}
@@ -22,6 +22,7 @@ Jcap.source.response("JcapJS", function() {
 		},
 		"plugin.upload": "plugin/upload.js",
 		"plugin.smoothWheel": "plugin/smoothWheel.js",
-		"io.websocket": "io/websocket.js"
+		"io.websocket": "io/websocket.js",
+		'jccss':stylesheet('app')
 	};
 });
